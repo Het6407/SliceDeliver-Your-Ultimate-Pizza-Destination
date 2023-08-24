@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* header {
+    display: flex;
+    background-color: rgb(226, 220, 220);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+} */
+header {
+    background-color:#f17c1b ;
+    height: 125px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header > img {
+    width: auto;
+    height: 100%;
+  }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pizza-section {
+    background-color: #f1f1f1;
+}
+
+h2 {
+    text-align: center;
+}
+
+.pizza-options {
+    display: grid;
+    gap: 10px;
+}
+.size label {
+    font-weight: bold;
+}
+.varieties label {
+    font-weight: bold;
+}
+
+#order-btn {
+    background-color: #2b39f8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#order-btn:hover {
+    background-color: #3215d4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+   
+    padding: 0px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body header nav img{
+    height: 110px;
+    width: 110px;
+}
+/* .logo {
+    background-color:#3033b6e1;
+    margin-right: 980px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #faf4f3;
+} */
+
+.pizza {
+    background-image: url('../img/pizza\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza-content {
+    text-align: center;
+    color: #111010;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background-color: #3429ce00;
+    color: rgb(252, 249, 249);
+}
+.text{
+    background-color: #3f3d3d8a;
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #3f3d3d8a;
+}
+
+.btn {
+    background-color: #3f3d3d8a;
+    color: #faf8f8;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2528c4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.payment-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.payment-options label {
+    font-weight: bold;
+}
+
+#payment-method {
+    padding: 8px;
+    width: 100%;
+}
+
+.toppings-display {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.total-price {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment-methods label {
+    display: flex;
+    align-items: center;
+}
+
+.payment-methods input[type="radio"] {
+    margin-right: 8px;
+}
+
+.payment-methods .btn {
+    margin-top: 20px;
+}

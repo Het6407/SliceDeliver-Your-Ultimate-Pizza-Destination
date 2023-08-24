@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/a2.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Buzz Off Pizza</h1>
+        <!-- <img src="./img/logo1.png" > -->
+    </header>
+
+    <section class="pizza-section">
+        <div class="container">
+            <!-- <h2>Build Your Pizza</h2> -->
+            <div class="pizza-options">
+                <div class="option">
+                    <label for="size"><b>Size:</b></label>
+                    <select id="size">
+                        <option value="small">Small (4 Slices)</option>
+                        <option value="medium">Medium (6 Slices)</option>
+                        <option value="large">Large (8 Slices)</option>
+                        <option value="X-Large">X-Large (12 Slices)</option>
+                    </select>
+                </div>
+                <div class="varieties">
+                    <label for="crust">Dough:</label>
+                    <select id="crust">
+                        <option value="regular">Regular Crust (140 Cals)</option>
+                        <option value="thin crust">Thin Crust (100 Cals)</option>
+                        <option value="thick crust">Thick Crust (180 Cals)</option>
+                    </select>
+                </div>
+                <div class="varieties">
+                    <label for="toppings">Base Sauces :</label>
+                    <input type="radio" id="sauce-1" name="sauce" value="No"> No Sauce
+                    <input type="radio" id="sauce-2" name="sauce" value="Buffalo"> Buffalo Base Sauce
+                    <input type="radio" id="sauce-3" name="sauce" value="Butter Chicken"> Butter Chicken Sauce
+                    <input type="radio" id="sauce-4" name="sauce" value="Pesto"> Pesto Sauce
+                    <input type="radio" id="sauce-4" name="sauce" value="Texas Bbq"> Texas Bbq
+                </div>
+                <div class="varieties">
+                    <label for="toppings">Base Cheese :</label>
+                    <input type="checkbox" id="toppings" value="No cheese" checked> No Cheese
+                    <input type="checkbox" id="toppings" value="Dairy free cheese"> Dairy Free Cheese
+                    <input type="checkbox" id="toppings" value="Six cheese"> Six Cheese Base
+                    <input type="checkbox" id="toppings" value="Mozzarella"> Mozzarella Cheese
+                    <input type="checkbox" id="toppings" value="Low fat"> Low Fat Cheese
+                </div>
+                <div class="varieties">
+                    <label for="CheeseLevels">Cheese Level :</label>
+                    <input type="radio" name="cheese" value="Normal"> Normal
+                    <input type="radio" name="cheese" value="Extra"> Extra
+                    <input type="radio" name="cheese" value="Double"> Double
+                    <input type="radio" name="cheese" value="Triple"> Triple
+                </div>
+                <div class="varieties">
+                    <label for="toppings">Toppings Meat :</label>
+                    <input type="checkbox" id="toppings" value="Bacon Crumble"> Bacon Crumble
+                    <input type="checkbox" id="toppings" value="Butter Chicken"> Butter Chicken
+                    <input type="checkbox" id="toppings" value="Ground Beef"> Ground Beef
+                    <input type="checkbox" id="toppings" value="Italian Ham"> Italian Ham
+                    <input type="checkbox" id="toppings" value="pepperoni"> Pepperoni
+                    <input type="checkbox" id="toppings" value="Spicy Italian"> Spicy Italian Sausage
+                    <input type="checkbox" id="toppings" value="Salami"> Salami
+
+                </div>
+                <div class="varieties">
+                    <label for="toppings">Toppings Vegetarian :</label>
+                    <input type="checkbox" id="toppings" value="Fire roasted"> Fire roasted red pepper
+                    <input type="checkbox" id="toppings" value="Green Pepper"> Green Pepper
+                    <input type="checkbox" id="toppings" value="Hot Banana Pepper"> Hot Banana Pepper
+                    <input type="checkbox" id="toppings" value="Jalapeno pepper"> Jalapeno pepper
+                    <input type="checkbox" id="toppings" value="Green Olives"> Green Olives
+                    <input type="checkbox" id="toppings" value="Red Onions"> Red Onions
+                    <input type="checkbox" id="toppings" value="Tomatoes"> Tomatoes
+                    <input type="checkbox" id="toppings" value="Spinach"> Spinach
+                    <input type="checkbox" id="toppings" value="Roasted Garlic"> Roasted Garlic
+
+                </div>
+                <div class="varieties">
+                    <label for="delivery">Delivery:</label>
+                    <input type="radio" name="delivery" id="delivery" value="deliverOrder">
+                    <label for="delivery">Take Away:</label>
+                    <input type="radio" name="delivery" id="takeAway" value="takeAway">
+                </div>
+                <button id="order-btn">Confirm Order</button>
+            </div>
+        </div>
+    </section>
+    <section class="payment-section">
+        <div class="container">
+            <h2>Payment</h2>
+            <div class="payment-options">
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method">
+                    <option value="credit/Debit card">Credit / Debit Card</option>
+                    <option value="G-Pay">G-Pay</option>
+                    <option value="Cash-On-Delivery">Cash-On-Delivery</option>
+                </select>
+                <label for="toppings-display">Selected Toppings:</label>
+                <div id="toppings-display"></div>
+                <label for="total-price">Total Price:</label>
+                <input type="text" id="total-price" readonly>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
